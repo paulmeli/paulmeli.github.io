@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/tic-tac-toe.css">
+    <script src="scripts/tic-tac-toe2.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1 class="center">Welcome to Tic-Tac-Toe!</h1>
+    </header>
+
+    <table> <!-- tic-tac-toe board -->
+      <tr>
+        <td id="cell_1"></td>
+        <td id="cell_2"></td>
+        <td id="cell_3"></td>
+      </tr>
+
+      <tr>
+        <td id="cell_4"></td>
+        <td id="cell_5"></td>
+        <td id="cell_6"></td>
+      </tr>
+
+      <tr>
+        <td id="cell_7"></td>
+        <td id="cell_8"></td>
+        <td id="cell_9"></td>
+      </tr>
+    </table>
+
+    <div class="center">
+      <span id="turn"></span>
+    </div>
+    <br> <!-- buttons -->
+    <div class="center">
+      <label>Select a mode:</label>
+      <br>
+      <input type="radio" name="p_vs_p" id="p_vs_p">Player v Player
+      <br>
+      <input type="radio" name="p_vs_p" id="p_vs_c">Player v Computer
+      <br><br>
+      <input type="button" id="start_restart_btn" value="Start/Restart">
+      <span> </span>
+      <input type="button" id="play_again_btn" value="Play Again?" disabled>
+    </div>
+
+  </body>
+</html>

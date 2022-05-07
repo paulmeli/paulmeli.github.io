@@ -1,0 +1,21 @@
+table {
+  table-layout: fixed;
+  border-collapse: collapse;
+  margin: 0px auto;
+}
+
+td {
+  border: 1px solid black;
+  padding: 80px 80px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 200%;
+}
+
+.center {
+  text-align: center;
+}
+
+#turn {
+  font-size: 150%;
+}
